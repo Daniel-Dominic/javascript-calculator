@@ -16,8 +16,10 @@ body {
 .screen {
  font-size: 40px;
  font-family: 'Courier New', Courier, monospace;
- text-align: right;
- padding: 20px 5px;
+ display: flex;
+ align-items: right;
+ padding: 20px 0px;
+ padding-left: 5px ;
 }
 
 .calc-button {
@@ -36,4 +38,32 @@ body {
 
 .calc-button:active {
  background-color: #bbcbee;
+}
+
+.double {
+ width: 49.7%;
+}
+
+.triple {
+ width: 74.8%;
+}
+
+.calc-rows {
+ display: flex;
+ content: stretch;
+ justify-content: space-between;
+ margin-bottom: 0.5%;
+}
+
+.calc-button:last-child {
+ background-color: #df974c ;
+ color: white;
+}
+
+.calc-button:last-child:hover {
+ background-color: #dfb07e;
+}
+
+.calc-button:last-child:active{
+ background-color: #ca8030;
 }
