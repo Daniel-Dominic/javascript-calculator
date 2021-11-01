@@ -22,7 +22,6 @@ function handleNumber(value) {
 
 function handleMath(value) {
   if (buffer === "0") {
-    // do nothing
     return;
   }
 
