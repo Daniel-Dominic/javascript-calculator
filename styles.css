@@ -21,9 +21,19 @@ body {
 }
 
 .calc-button {
+ color: black;
  background-color: #d8d9db;
  border: none;
  border-radius: 0px;
  height: 100px;
  width: 24.5%;
+ font-size: 40px;
+ cursor: pointer;
+}
+.calc-button:hover{
+ background-color: #ebebeb;
+}
+
+.calc-button:active {
+ background-color: #bbcbee;
 }
