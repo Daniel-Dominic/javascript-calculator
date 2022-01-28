@@ -86,7 +86,10 @@ function rerender() {
 
 function init() {
   document.querySelector(".calc-buttons").addEventListener("click", function(event) {
+    const bugClear = event.target.tagName;
+    if (bugClear === "BUTTON") {
     buttonClick(event.target.innerText);
+    }
   });
 }
 
